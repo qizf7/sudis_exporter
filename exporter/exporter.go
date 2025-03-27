@@ -129,6 +129,9 @@ func NewRedisExporter(uri string, opts Options) (*Exporter, error) {
 			"process_id":        "process_id",
 			"io_threads_active": "io_threads_active",
 
+			// # NodeState
+			"NodeState": "node_state",
+
 			// # Clients
 			"connected_clients":            "connected_clients",
 			"blocked_clients":              "blocked_clients",
